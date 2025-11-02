@@ -41,24 +41,24 @@ This yields compression on natural-language inputs and many structured text file
 ---
 
 ## 📂 Project Structure
-
+.
 ├── include/
-│ ├── bitreader.h
-│ ├── bitwriter.h
-| ├── Makefile
-│ ├── node.h
-│ └── pq.h
+│   ├── bitreader.h
+│   ├── bitwriter.h
+|   ├── Makefile
+│   ├── node.h
+│   └── pq.h
 ├── src/
-│ ├── bitreader.c
-│ ├── bitwriter.c
-│ ├── node.c
-│ ├── pq.c
-│ ├── huff.c # encoder main
-│ └── dehuff.c # decoder main
-├── src-tests/
-| ├── brtest.c
-| ├── bwtest.c
-| ├── nodetest.c
-| └── pqtest.c
-├── report.pdf 
+│   ├── bitreader.c
+│   ├── bitwriter.c
+│   ├── node.c
+│   ├── pq.c
+│   ├── huff.c       # encoder main
+│   └── dehuff.c     # decoder main
+├── tests/
+│   ├── brtest.c
+│   ├── bwtest.c
+│   ├── nodetest.c
+│   └── pqtest.c
+├── report.pdf
 └── README.md
