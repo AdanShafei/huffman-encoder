@@ -41,7 +41,8 @@ This yields compression on natural-language inputs and many structured text file
 ---
 
 ## 📂 Project Structure
-.
+
+<pre><code>.
 ├── include/
 │   ├── bitreader.h
 │   ├── bitwriter.h
@@ -62,3 +63,4 @@ This yields compression on natural-language inputs and many structured text file
 │   └── pqtest.c
 ├── report.pdf
 └── README.md
+</code></pre>
